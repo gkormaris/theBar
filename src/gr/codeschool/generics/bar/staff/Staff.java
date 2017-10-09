@@ -1,16 +1,12 @@
 package gr.codeschool.generics.bar.staff;
 
 import gr.codeschool.generics.bar.Order;
-import gr.codeschool.generics.bar.drinks.Drink;
 
-/**
- * Created by ioanniskormaris on 08/10/2017.
- */
-public interface Staff<D> {
+public interface Staff<T> {
 
-    void serve(D drink);
+    void serve(T drink);
 
-    void serve(Order<D> order);
+    void serve(Order<T> order);
 
     String getName();
 }

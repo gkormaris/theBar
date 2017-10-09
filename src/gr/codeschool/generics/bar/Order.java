@@ -1,28 +1,23 @@
 package gr.codeschool.generics.bar;
 
-import gr.codeschool.generics.bar.drinks.Drink;
-
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by ioanniskormaris on 08/10/2017.
- */
-public class Order<D> {
+public class Order<T> {
 
     private int tableNumber;
 
-    private List<D> drinks;
+    private List<T> drinks;
 
     public Order() {
-        drinks = new ArrayList<D>();
+        drinks = new ArrayList<T>();
     }
 
-    public List<D> getDrinks() {
+    public List<T> getDrinks() {
         return drinks;
     }
 
-    public void setDrinks(List<D> drinks) {
+    public void setDrinks(List<T> drinks) {
         this.drinks = drinks;
     }
 
@@ -34,11 +29,11 @@ public class Order<D> {
         this.tableNumber = tableNumber;
     }
 
-    public void add(D drink) {
+    public void add(T drink) {
         drinks.add(drink);
     }
 
-    public void remove(D drink) {
+    public void remove(T drink) {
         drinks.remove(drink);
     }
 }

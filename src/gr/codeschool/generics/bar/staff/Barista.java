@@ -1,7 +1,6 @@
 package gr.codeschool.generics.bar.staff;
 
 import gr.codeschool.generics.bar.Order;
-import gr.codeschool.generics.bar.drinks.Drink;
 import gr.codeschool.generics.bar.drinks.soft.SoftDrink;
 
 /**
