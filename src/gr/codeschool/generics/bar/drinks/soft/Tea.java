@@ -1,5 +1,5 @@
 package gr.codeschool.generics.bar.drinks.soft;
 
-public class Tea implements SoftDrink {
+public class Tea implements TeaIF {
 
 }

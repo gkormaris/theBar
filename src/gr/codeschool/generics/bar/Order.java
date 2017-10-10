@@ -1,9 +1,11 @@
 package gr.codeschool.generics.bar;
 
+import gr.codeschool.generics.bar.drinks.Drink;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class Order<T> {
+public class Order<T extends Drink> {
 
     private int tableNumber;
 

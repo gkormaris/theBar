@@ -27,7 +27,8 @@ public class Bartender implements Staff<AlcoholicDrink> {
 
     @Override
     public void serve(AlcoholicDrink drink) {
-
+        System.out.println("alc serverd!");
+        System.out.println("drink!!");
     }
 
     @Override

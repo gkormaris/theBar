@@ -3,9 +3,6 @@ package gr.codeschool.generics.bar.staff;
 import gr.codeschool.generics.bar.Order;
 import gr.codeschool.generics.bar.drinks.soft.SoftDrink;
 
-/**
- * Created by ioanniskormaris on 08/10/2017.
- */
 public class Barista implements Staff<SoftDrink> {
 
     private String name;
